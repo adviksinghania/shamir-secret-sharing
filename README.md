@@ -1,7 +1,3 @@
-# Shamir's-Secret-Sharing
-
-Implementing [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) cipher algorithm in Python3 and using [Matplotlib](https://matplotlib.org/) to visualize the differences in using the real infinite field and [finite field arithmetic](https://en.wikipedia.org/wiki/Finite_field_arithmetic).
-
 ## Table of Contents
 
 - [About](#about)

@@ -23,7 +23,7 @@ Secret sharing schemes are ideal for storing information that is highly sensitiv
 
 ![Adi Shamir](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Adi_Shamir_Royal_Society.jpg/400px-Adi_Shamir_Royal_Society.jpg)
 
-[Back To Top](#back-to-top)
+[Back To Top](#table-of-contents)
 
 ## Explanation
 
@@ -34,12 +34,12 @@ The essential idea of the scheme is based on [Lagrange interpolation theorem](ht
 For instance, 2 points are sufficient to define a line, 3 points are sufficient to define a parabola, 4 points to define a cubic curve and so forth.
 
 We construct a polynomial such that our secret is encoded as the zeroth coefficient or the y-intercept of the function. Take random _k - 1_ elements as the rest of the coefficients _a1, a2, a3, ...., a(k-1)_, such that the final polynomial becomes
-_f(x) = a<sub>0</sub> + a<sub>1</sub> * x + a<sub>2</sub> * x<sup>2</sup> + .... + a<sub>(k-1)</sub> \* x<sup>(k-1)</sup>_.
+_f(x) = a<sub>0</sub> + a<sub>1</sub> x + a<sub>2</sub> x<sup>2</sup> + .... + a<sub>(k-1)</sub> x<sup>(k-1)</sup>_.
 Now we can construct the shares required, by computing _(i, f(i))_ where _i_ is a natural number. Every participant is given a point (a non-zero integer input to the polynomial, and the corresponding integer output). Given any random subset of k of these pairs, we can obtain the secret (_a<sub>0</sub>_) with interpolation using the following formula:
 
 > ![Formula](./assets/formula1.png)
 
-[Back To Top](#back-to-top)
+[Back To Top](#table-of-contents)
 
 ## Galois Fields
 
@@ -51,7 +51,7 @@ Unlike the real field where we have infinite number of coordinates and axes, a f
 
 ![Évariste Galois](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Evariste_galois.jpg/371px-Evariste_galois.jpg)
 
-[Back To Top](#back-to-top)
+[Back To Top](#table-of-contents)
 
 ## Example
 
@@ -71,7 +71,7 @@ This problem can be fixed by using finite field arithmetic. The graph shows a po
 ![Without Galois Field](./assets/screenshot1.png)
 ![With Galois Field](./assets/screenshot2.png)
 
-[Back To Top](#back-to-top)
+[Back To Top](#table-of-contents)
 
 ## Setup
 
@@ -101,7 +101,7 @@ This problem can be fixed by using finite field arithmetic. The graph shows a po
 
 > Another benefit of using prime fields is that the output of the polynomial will be small compared to the polynomial using integer arithmetic, where the numbers may even cross the range of _int_ and therefore, the secret may not be properly reconstructed.
 
-[Back To Top](#back-to-top)
+[Back To Top](#table-of-contents)
 
 If you have any doubts, you can reach me on [Twitter](https://twitter.com/SinghaniaAdvik), [LinkedIn](https://www.linkedin.com/in/adviksinghania/), or [Instagram](https://www.instagram.com/half.viking/)
 

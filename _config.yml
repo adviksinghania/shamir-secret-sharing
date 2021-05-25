@@ -1,2 +1,4 @@
 theme: jekyll-theme-architect
 show_downloads: "true"
+title: "Shamir's Secret Sharing"
+description: "Implementing Shamir's Secret Sharing cipher algorithm in Python3 and using Matplotlib to visualize the differences in using the real infinite field and finite field arithmetic."
